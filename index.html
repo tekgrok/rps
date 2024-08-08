@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="banner">
+            <img src="imgs/rps_cropped.png" alt="Banner">
+        </div>
+        <div class="item" id="sub-banner">
+            First to 3 wins
+        </div>
+        <div class="item container buttons-box">
+            <button class="item" id="startButton">
+                Start Game
+            </button>
+            <div class="item container image-buttons-box">
+                <button class="image-buttons" id="button0" >
+                    <img src="imgs/b_r.png" alt="Blue Rock">
+                </button>
+                <button class="image-buttons" id="button1" >
+                    <img src="imgs/b_p.png" alt="Blue Paper">
+                </button>
+                <button class="image-buttons" id="button2">
+                    <img src="imgs/b_s.png" alt="Blue Scissors">
+                </button>
+            </div>
+        </div>
+        <div class="item container battles-box">
+            <div class="item outputs-box">
+                <div id="output_alpha">
+                    Welcome to rock paper scissors
+                </div>
+                <div id="output_beta">
+                    Click the Start game button to begin
+                </div>
+                <div class="item container gamma-box" id="output_gamma">
+                    <div class="item" id="output_gamma_user">your tally: 0</div>
+                    <div class="item" id="output_gamma_comp">red tally: 0</div>
+                </div>
+                <div class="item container hand-box">
+                    <div class="item" id="user_spot"></div>
+                    <div class="item" id="comp_spot"></div>
+                </div>
+            </div>
+        </div>
+        <script src="game.js"></script>
+    </div>
+</body>
+</html>
