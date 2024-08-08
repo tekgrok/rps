@@ -1,2 +1,2 @@
 # rps
-project for the odin project
+coding project for the odin project
